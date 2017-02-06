@@ -1,0 +1,36 @@
+{
+  "name": "scoop-react",
+  "version": "0.1.0",
+  "description": "Scoop bindings for React view layer",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmolendijk/scoop-react.git"
+  },
+  "keywords": [
+    "redux",
+    "oop",
+    "react"
+  ],
+  "author": "Tim Molendijk <tim@timmolendijk.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmolendijk/scoop-react/issues"
+  },
+  "homepage": "https://github.com/timmolendijk/scoop-react#readme",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  },
+  "peerDependencies": {
+    "redux-scoop": "timmolendijk/redux-scoop",
+    "react": "^15.0.0"
+  },
+  "dependencies": {
+    "react-redux": "^5.0.2"
+  }
+}
